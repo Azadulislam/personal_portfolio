@@ -1,0 +1,66 @@
+$activebg: #1e272e;
+$sidebarbg: #2f3640;
+@import "variable";
+
+@import "logReg";
+
+#wrapper{
+    .main-content{
+        .small-spacing{
+            .mess{
+                font-size: 2rem;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+                margin-bottom: 1rem;
+            }
+            .desh-title{
+                padding-left: 1.2rem;
+                margin: 1.5rem 0rem;
+            }
+            .white{
+                
+                .box-title{
+                    background: transparent;
+                    border-bottom: 1px solid #e5e5e5;
+                }
+            }
+            .card-content{
+                .image-desh{
+                    table{
+                        width: 100%;
+                        tr{
+                            td{
+                                vertical-align: baseline;
+                                span{
+                                    display: block;
+                                    margin-bottom: 3rem;
+                                    font-size: 1.8rem;
+                                    text-transform: capitalize;
+                                }
+                                img{
+                                    width: 25rem;
+                                }
+                            }
+                        }
+                    }
+                }
+                ul{
+                    li{
+                        .d-block{
+                            display: block;
+                        }
+                        #up_resume{
+                            margin-top: 3rem;
+                        }
+                    }
+                }
+            }
+            .profile{
+                .social{
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+        }
+    }
+}

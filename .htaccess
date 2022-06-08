@@ -1,0 +1,17 @@
+ErrorDocument 404 https://azad.creative-jfa.com/404
+
+ErrorDocument 500 https://azad.creative-jfa.com/500
+
+RewriteEngine On
+
+
+RewriteCond %{REQUEST_URI} ^/404/$
+RewriteRule ^(.*)$ https://azad.creative-jfa.com/404.php [L]
+
+RewriteCond %{REQUEST_URI} ^/500/$
+RewriteRule ^(.*)$ https://azad.creative-jfa.com/500.php [L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME}\.php -f 
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

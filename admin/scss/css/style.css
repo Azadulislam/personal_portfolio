@@ -1,0 +1,148 @@
+.form-layer, #logReg .login-from .div-one, #login .login-from .div-one, #register .login-from .div-one, #logReg .login-from .div-one::before, #login .login-from .div-one::before, #register .login-from .div-one::before, #logReg .login-from .div-one::after, #login .login-from .div-one::after, #register .login-from .div-one::after {
+  background: #fff;
+  width: 100%;
+  box-shadow: 1px 1px 9px 6px #00000042;
+  height: 100%;
+  text-align: center; }
+
+.form-layer-after, #logReg .login-from .div-one::before, #login .login-from .div-one::before, #register .login-from .div-one::before, #logReg .login-from .div-one::after, #login .login-from .div-one::after, #register .login-from .div-one::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2; }
+
+#logReg, #login, #register {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../image/login-g.jpg") top center fixed;
+  background-size: cover;
+  max-width: 100%;
+  min-height: 100vh;
+  overflow: hidden; }
+  #logReg .login-from, #login .login-from, #register .login-from {
+    width: 400px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; }
+    #logReg .login-from .div-one, #login .login-from .div-one, #register .login-from .div-one {
+      position: absolute;
+      z-index: 900;
+      padding: 25px 35px;
+      height: auto; }
+      #logReg .login-from .div-one::before, #login .login-from .div-one::before, #register .login-from .div-one::before {
+        content: '';
+        transform: rotateZ(1deg); }
+      #logReg .login-from .div-one::after, #login .login-from .div-one::after, #register .login-from .div-one::after {
+        content: '';
+        transform: rotateZ(2deg); }
+      #logReg .login-from .div-one .div-two, #login .login-from .div-one .div-two, #register .login-from .div-one .div-two {
+        border: 1px solid #44a0a7;
+        height: 100%;
+        width: 100%;
+        padding: 15px 15px; }
+        #logReg .login-from .div-one .div-two h4, #login .login-from .div-one .div-two h4, #register .login-from .div-one .div-two h4 {
+          font-family: "Merriweather", serif;
+          color: #2f3640;
+          display: inline-block;
+          text-transform: capitalize; }
+        #logReg .login-from .div-one .div-two h5, #login .login-from .div-one .div-two h5, #register .login-from .div-one .div-two h5 {
+          color: #737171;
+          font-weight: 400;
+          text-transform: capitalize; }
+        #logReg .login-from .div-one .div-two .admin-imge, #login .login-from .div-one .div-two .admin-imge, #register .login-from .div-one .div-two .admin-imge {
+          width: 5rem;
+          height: 5rem;
+          margin: auto;
+          border-radius: 5rem;
+          overflow: hidden; }
+          #logReg .login-from .div-one .div-two .admin-imge img, #login .login-from .div-one .div-two .admin-imge img, #register .login-from .div-one .div-two .admin-imge img {
+            width: 100%;
+            height: 100%; }
+        #logReg .login-from .div-one .div-two p, #login .login-from .div-one .div-two p, #register .login-from .div-one .div-two p {
+          color: #777373;
+          font-weight: 500; }
+        #logReg .login-from .div-one .div-two .frm-inpt, #login .login-from .div-one .div-two .frm-inpt, #register .login-from .div-one .div-two .frm-inpt {
+          position: relative;
+          margin-bottom: .7rem; }
+          #logReg .login-from .div-one .div-two .frm-inpt input.pin-input, #login .login-from .div-one .div-two .frm-inpt input.pin-input, #register .login-from .div-one .div-two .frm-inpt input.pin-input {
+            width: 100%;
+            line-height: 2;
+            border: none;
+            border-left: 4px solid #888;
+            outline: 1px solid #888;
+            padding-left: 25px;
+            transition: .5s ease; }
+            #logReg .login-from .div-one .div-two .frm-inpt input.pin-input:focus, #login .login-from .div-one .div-two .frm-inpt input.pin-input:focus, #register .login-from .div-one .div-two .frm-inpt input.pin-input:focus {
+              border-left: 4px solid #0652DD;
+              outline: 1px solid #0652DD; }
+          #logReg .login-from .div-one .div-two .frm-inpt .loglable, #login .login-from .div-one .div-two .frm-inpt .loglable, #register .login-from .div-one .div-two .frm-inpt .loglable {
+            color: #888;
+            padding: 6px;
+            position: absolute;
+            left: 5px;
+            bottom: 0;
+            top: 0;
+            transition: .3s;
+            transform-origin: left; }
+          #logReg .login-from .div-one .div-two .frm-inpt .focused, #login .login-from .div-one .div-two .frm-inpt .focused, #register .login-from .div-one .div-two .frm-inpt .focused {
+            padding-left: 4px !important; }
+        #logReg .login-from .div-one .div-two .login-btn, #login .login-from .div-one .div-two .login-btn, #register .login-from .div-one .div-two .login-btn {
+          border: none;
+          background: #3c40c6;
+          border-radius: 3px;
+          display: block;
+          width: 100%;
+          color: white;
+          text-transform: capitalize; }
+          #logReg .login-from .div-one .div-two .login-btn:hover, #login .login-from .div-one .div-two .login-btn:hover, #register .login-from .div-one .div-two .login-btn:hover {
+            background: #0652DD; }
+        #logReg .login-from .div-one .div-two .go-regi-link, #login .login-from .div-one .div-two .go-regi-link, #register .login-from .div-one .div-two .go-regi-link {
+          text-transform: capitalize;
+          text-align: start;
+          margin-top: 10px;
+          margin-bottom: 5px;
+          color: #747d8c;
+          display: block;
+          text-decoration: none; }
+          #logReg .login-from .div-one .div-two .go-regi-link:hover, #login .login-from .div-one .div-two .go-regi-link:hover, #register .login-from .div-one .div-two .go-regi-link:hover {
+            color: #34495e; }
+        #logReg .login-from .div-one .div-two hr, #login .login-from .div-one .div-two hr, #register .login-from .div-one .div-two hr {
+          height: 1px;
+          background: #bdbdbd;
+          border-radius: 5px;
+          margin: 8px 0px; }
+        #logReg .login-from .div-one .div-two .login-foot, #login .login-from .div-one .div-two .login-foot, #register .login-from .div-one .div-two .login-foot {
+          color: #666a6f;
+          font-weight: 500;
+          margin: 0; }
+
+#wrapper .main-content .small-spacing .mess {
+  font-size: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem; }
+#wrapper .main-content .small-spacing .desh-title {
+  padding-left: 1.2rem;
+  margin: 1.5rem 0rem; }
+#wrapper .main-content .small-spacing .white .box-title {
+  background: transparent;
+  border-bottom: 1px solid #e5e5e5; }
+#wrapper .main-content .small-spacing .card-content .image-desh table {
+  width: 100%; }
+  #wrapper .main-content .small-spacing .card-content .image-desh table tr td {
+    vertical-align: baseline; }
+    #wrapper .main-content .small-spacing .card-content .image-desh table tr td span {
+      display: block;
+      margin-bottom: 3rem;
+      font-size: 1.8rem;
+      text-transform: capitalize; }
+    #wrapper .main-content .small-spacing .card-content .image-desh table tr td img {
+      width: 25rem; }
+#wrapper .main-content .small-spacing .card-content ul li .d-block {
+  display: block; }
+#wrapper .main-content .small-spacing .card-content ul li #up_resume {
+  margin-top: 3rem; }
+#wrapper .main-content .small-spacing .profile .social {
+  display: flex;
+  justify-content: space-between; }
+
+/*# sourceMappingURL=style.css.map */
